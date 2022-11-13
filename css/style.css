@@ -1,0 +1,404 @@
+/* html element tags css are here */
+body{
+  margin: 0;
+}
+p{
+  line-height: 2;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/* class css are here */
+/* Navbar section */
+.navbar{
+  background-color: #000000;
+  text-align: center;
+  padding: 30px;
+}
+.navbar a{
+  margin: auto 1.5rem;
+}
+.navbar a:hover{
+  color: #C40411;
+}
+
+/* Heder section css */
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  background: #0E0D0E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #C40411;
+  text-decoration: none;
+}
+
+.btnhead{
+  position: absolute;
+  top: 380px;
+  left: 150px;
+}
+.btnheadsec{
+  left: 300px;
+}
+.flyboy{
+  float: right;
+}
+.header{
+  background-color: #FC9522;
+  color: #ffffff;
+  height: 500px;
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}
+.h1head{
+  font-size: 50px;
+  position: absolute;
+  top: 184px;
+  left: 150px;
+}
+.phead{
+  font-size: 30px;
+  position: absolute;
+  top: 280px;
+  left: 150px;
+}
+
+/* My details section */
+.details{
+  margin: 200px auto;
+  text-align: center;
+  width: 90%;
+  font-size: 15px;
+}
+.details-img{
+  float: left;
+  margin-right: 5%;
+}
+.details-intro{
+  text-align: left;
+}
+
+/* Sill section css */
+.onecont{
+  float: left;
+}
+.skills{
+  text-align: center;
+  margin: 220px auto;
+  width: 60%;
+}
+
+.skillcont{
+   margin-top: 100px;
+}
+.skillcont a{
+  color: #000000;
+  font-weight: bold;
+}
+.skillcont a:hover{
+  color: #C40411;
+}
+.twocont{
+  float: left;
+  margin-left: 62px;
+}
+
+/* Contact Section css */
+.contact{
+  text-align: center;
+  margin: 200px auto;
+  width: 50%;
+}
+.contact a{
+  color: #000000;
+  font-weight: bold;
+  margin: 100px 20px;
+}
+.contact a:hover{
+  color: #C40411;
+}
+
+/* Footer Section */
+.footer{
+  background-color: #000000;
+  text-align: center;
+  padding-top: 20px;
+}
+.footer p{
+  color: #ffffff;
+}
+.footer a{
+  margin: 50px 20px;
+}
+.footer a:hover{
+  color: #C40411;
+}
+.footer h2{
+  color: #ffffff;
+}
+
+.copyright p{
+  margin: 40px auto 0;
+}
+
+/* Responsive css code for tablet is here */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  /* Navbar section */
+  .navbar{
+    padding: 20px;
+  }
+  .navbar a{
+    margin: auto 1rem;
+    font-size: 10px;
+  }
+
+
+  /* Heder section css */
+  .flyboy{
+    height: 200px;
+    width: 200px;
+  }
+  .header{
+    height: 200px;
+    padding-top: 50px;
+  }
+  .h1head{
+    font-size: 20px;
+    top: 80px;
+    left: 100px;
+  }
+  .phead{
+    font-size: 10px;
+    top: 120px;
+    left:100px;
+  }
+  .btnhead{
+    top: 160px;
+    left:100px;
+  }
+  .btnheadsec{
+    left: 200px;
+  }
+
+  /* My details section */
+  .bikedon{
+    width: 200px;
+    height: 200px;
+  }
+  .btn {
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+  .details{
+    width: 80%;
+    font-size: 8px;
+    margin: 100px auto;
+  }
+  .details-img{
+    margin-right: 0;
+  }
+  /* Sill section css */
+  .skills{
+    width: 60%;
+    margin: 100px auto;
+  }
+  .skills h2,h3{
+    font-size: 12px;
+  }
+  .skills h3{
+    font-size: 10px;
+  }
+  .skills p{
+    font-size: 10px;
+  }
+  .skills a{
+    font-size: 10px;
+  }
+  .skills img{
+    height: 50px;
+    width: 50px;
+  }
+  .skillcont{
+    margin: 50px auto 50px 80px;
+  }
+  .onecont{
+    clear: left;
+  }
+  .twocont{
+    clear: left;
+    margin:20px auto auto 0;;
+  }
+  /* contact section */
+  .contact{
+    width: 50%;
+    margin: 200px auto 100px;
+  }
+  .contact p{
+    font-size: 10px;
+  }
+  .contact h2{
+    font-size: 12px;
+  }
+  .contact a{
+    font-size: 10px;
+  }
+  /* Footer Section */
+  .footer{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .footer p{
+    color: #ffffff;
+  }
+  .footer a{
+    margin: 20px 10px;
+    font-size: 10px;
+  }
+
+  .footer h2{
+    font-size: 12px;
+  }
+
+  /* Copyright section */
+  .copyright p{
+    font-size: 10px auto 0;
+  }
+
+}
+
+
+/* Responsive css code for mobile is here */
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* Navbar section */
+  .navbar{
+    padding: 20px;
+    width: auto;
+  }
+  .navbar a{
+    margin: auto 0.5rem;
+    font-size: 8px;
+  }
+  /* Heder section css */
+  .flyboy{
+    height: 100px;
+    width: 100px;
+  }
+  .header{
+    height: 120px;
+    width: auto;
+    padding-top: 25px;
+  }
+  .h1head{
+    font-size: 8px;
+    top: 30px;
+    left: 25px;
+  }
+  .phead{
+    font-size: 5px;
+    top: 50px;
+    left: 25px;
+  }
+  .btn{
+    display: none;
+  }
+  /* My details section */
+  .bikedon{
+    width: 130px;
+    height: 130px;
+  }
+  .details{
+    width: 80%;
+    font-size: 8px;
+    margin: 50px auto;
+  }
+  .details-img{
+    margin-right: 0;
+  }
+  /* Sill section css */
+  .skills{
+    width: 60%;
+    margin: 50px auto;
+  }
+  .skills h2,h3{
+    font-size: 12px;
+  }
+  .skills h3{
+    font-size: 10px;
+  }
+  .skills p{
+    font-size: 10px;
+  }
+  .skills a{
+    font-size: 10px;
+  }
+  .skills img{
+    height: 50px;
+    width: 50px;
+  }
+  .skillcont{
+    margin: 0;
+  }
+  .onecont{
+    clear: left;
+  }
+  .twocont{
+    clear: left;
+    margin:20px auto auto 0;;
+  }
+
+  /* contact section */
+  .contact{
+    width: 100%;
+    margin: 50px auto 100px;
+  }
+  .contact p{
+    font-size: 10px;
+  }
+  .contact h2{
+    font-size: 12px;
+  }
+  .contact a{
+    font-size: 10px;
+    display: block;
+    margin: 10px auto;
+  }
+  /* Footer Section */
+  .footer{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .footer p{
+    color: #ffffff;
+  }
+  .footer a{
+    margin: 10px auto;
+    font-size: 10px;
+    display: block;
+  }
+
+  .footer h2{
+    font-size: 12px;
+  }
+
+  /* Copyright section */
+  .copyright p{
+    margin: 10px auto 0;
+    font-size: 10px;
+  }
+
+}
